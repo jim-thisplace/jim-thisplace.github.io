@@ -1,0 +1,31 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <script src="https://www.gstatic.com/firebasejs/3.4.1/firebase.js"></script>
+    <script src="lib/gyronorm.min.js"></script>
+    <script src="firebase-config.js"></script>
+    <script src="controller.js"></script>
+</head>
+<body>
+<h2>
+    Your device is a controller with the ID
+    <div id="deviceId">-</div>
+    transmitting
+    <div id="deviceMode">-</div>
+    data
+</h2>
+
+<button id="generateNewDeviceID">Generate new device id</button>
+
+<h4>Network status:</h4>
+<table>
+    <tr>
+        <th>Firebase</th>
+    </tr>
+    <tr>
+        <td id="firebase_status">Not connected</td>
+    </tr>
+</table>
+
+</body>
+</html>
